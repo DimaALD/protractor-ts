@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-scenario;log-in-to-system",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Log in to system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140819999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I open login page",
+            "match": {
+              "location": "..\\steps\\common.ts:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1671000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill login form with username: test and password: test",
+            "match": {
+              "location": "..\\steps\\login.ts:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 782400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 205875300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13369199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-scenario",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Scenario",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "..\\features\\login.feature"
+  }
+]

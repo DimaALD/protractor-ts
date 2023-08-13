@@ -1,0 +1,30 @@
+{
+  "name": "protractor-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webdriver-manager:update": "webdriver-manager update --ignore_ssl",
+    "protractor": "protractor configs/protractor.conf.js"
+  },
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "ts-node": "^10.9.1",
+    "@cucumber/cucumber": "^9.1.2",
+    "cucumber-html-reporter": "^7.1.0",
+    "protractor-cucumber-framework": "^9.2.1",
+    "dotenv": "^16.0.3",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.7",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/shelljs": "^0.8.12",
+    "@types/chai": "^4.3.5",
+    "prettier": "^2.8.8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

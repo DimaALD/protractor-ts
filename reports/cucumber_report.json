@@ -1,0 +1,97 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-scenario;log-in-to-system",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Log in to system",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7128999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I open login page",
+            "match": {
+              "location": "..\\steps\\common\\interactions.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879422500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill login form with username: standard_user and password: secret_sauce",
+            "match": {
+              "location": "..\\steps\\login.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522753199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "..\\steps\\common\\assertions.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7590200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 935543400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18616100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-scenario",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Scenario",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "..\\features\\login.feature"
+  }
+]
